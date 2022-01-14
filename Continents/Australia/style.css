@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    font-family: "Montserrat", sans-serif;
+}
+
+body{
+    background-image: url("assets/img/Untitled.png");
+    color: #7e7e7e;
+    cursor: url(assets/img/icons8-cursor-32.png), auto;
+}
+
+li, a, button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+.head{
+    max-width: 6000px;
+    min-height: 22px;
+    position: relative;
+    left: 15px;
+    width: 97%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 10%;
+    background-color: #24252A;
+    border-radius: 120px;
+    box-shadow: 0 0 10px rgba(96, 203, 230, 0.8);
+    z-index: 100;
+}
+
+.tit{
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+    position: relative;
+    left: 375px;
+    padding-top: 20px;
+    color: rgb(224, 59, 224);
+}
+
+.sub {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    position: relative;
+    left: 480px;
+    padding-top: 20px;
+    color: #383d52;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.nav__links{
+    list-style: none;
+}
+
+.nav__links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a{
+    color: #edf0f1;
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover{
+    color: #0088A9;
+}
+
+.foot__links{
+    color: #edf0f1;
+    transition: all 0.3s ease 0s;
+}
+
+.foot__links:hover{
+    color: #0088A9;
+}
+
+h2 a{
+    
+    color: rgb(4, 191, 253);
+    transition: all 0.3s ease 0s;
+}
+
+h2 a:hover{
+    color: #95eaff;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+.wrapper{
+    top: 50%;
+    left: 50%;
+    width: 450px;
+    background: #fff;
+    position: absolute;
+    border-radius: 10px;
+    transform: translate(-50%, -50%) ;
+}
+
+.wrapper header{
+    color: #6f36ff;
+    font-size: 23px;
+    font-weight: 500;
+    padding: 17px 30px;
+    border-bottom: 1px solid #bfbfbf;;
+}
+
+.wrapper .content{
+    margin: 30px 30px 40px;
+}
+
+.content ul li{
+    text-align: center;
+} 
+
+.content ul li a{
+    
+    color: rgba(0, 136, 169, 1);
+    transition: all 0.3s ease 0s;
+}
+
+.content ul li a:hover{
+    color: #6f36ff;
+}
+
+p{
+    font-size: 20px;
+}
+
+.title{
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    position: relative;
+    left: 500px;
+    padding-top: 20px;
+    color:cyan;
+}
+
+.section__title{
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    position: relative;
+    left: 500px;
+    padding-top: 20px;
+    color:cyan;
+}
+
+.section__subtitle{
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    position: relative;
+    left: 540px;
+    padding-top: 20px;
+    color:#6f36ff;
+}
+
+.subtitle{
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    position: relative;
+    left: 540px;
+    padding-top: 20px;
+    color:#6f36ff;
+    padding-right: 12px;
+    text-align:center;
+    position:relative;
+    left:2px;
+    bottom:70px; 
+    margin:0px;
+}
+
+div img{
+    width: 40%; position:relative; left: 400px; border-radius:10%;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    border: 2px solid plum;
+    border-radius: 10px;
+}
+/*tells the browser how the arrows will appear*/
+
+/* tells the browser how the scrollable 
+  handle would look like */
+  
+::-webkit-scrollbar-thumb {
+    background: rgb(196, 67, 247);
+    width: 2px;
+    border-radius: 10px;
+}
+/* tells the browser how will the 
+ path of the handle will look like */
+  
+::-webkit-scrollbar-track {
+    background: rgb(87, 87, 87);
+    width: 2px;
+
+}
+  
+::-webkit-resizer {
+    background: pink;
+    border-radius: 10px;
+}
+
+

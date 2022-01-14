@@ -1,0 +1,111 @@
+.hidden {
+    opacity: 0;
+}
+
+.visible {
+    opacity: 1;
+    transition: opacity 800ms ease-out;
+}
+
+body{
+  background-color: black;
+  overflow-x: hidden;
+}
+
+.main-nav-wrap ul li a{
+  color: cadetblue;
+}
+
+.main-nav-wrap ul li a:hover{
+  color: rgb(11,0,128);
+}
+
+
+
+.wrapper{
+  background: #fff;
+  width: 450px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform:  translate(-50%, -50%);
+  border-radius: 10%;
+  padding-top: 50px;
+}
+
+.fab-container {
+	position: fixed;
+	bottom: 50px;
+	right: 50px;
+	z-index: 999;
+	cursor: pointer;
+}
+
+.fab-icon-holder {
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+	background: #016fb9;
+
+	box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+}
+
+.fab-icon-holder:hover{
+	opacity: 0.8;
+}
+
+.fab-icon-holder i {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	height: 100%;
+	font-size: 25px;
+	color: #ffffff;
+}
+
+.fab {
+	width: 60px;
+	height: 60px;
+	background: #d23f31;
+}
+
+.fab:hover {
+	opacity: 1;
+	transform: scale(1);
+}
+
+.bg-modal{
+    width: 100%;
+    height: 100%;
+    background-color: var(--body-color);
+    position: absolute;
+    top:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    color: #808080;
+}
+
+.modal-content{
+    width: 600px;
+    height: 350px;
+    background-color: white;
+    border-radius: 2%;
+    z-index: 2;
+    float: left;
+    width: 50%;
+    padding-top: 12px;
+    position: relative;
+} 
+
+.close{
+    position: absolute;
+    top:0;
+    right: 14px;
+    font-size: 42px;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+  
